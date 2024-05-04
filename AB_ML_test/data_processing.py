@@ -16,8 +16,8 @@ def load_data(control_filename, experiment_filename):
         control_data (pd.DataFrame): Control data as a Pandas DataFrame.
         experiment_data (pd.DataFrame): Experiment data as a Pandas DataFrame.
     """
-    control_filepath = os.path.join("data", control_filename)
-    experiment_filepath = os.path.join("data", experiment_filename)
+    control_filepath = os.path.join("/Users/hydra/Desktop/Projects/AB_ML_test/data/control_data.csv", control_filename)
+    experiment_filepath = os.path.join("/Users/hydra/Desktop/Projects/AB_ML_test/data/experiment_data.csv", experiment_filename)
 
     control_data = pd.read_csv(control_filepath)
     experiment_data = pd.read_csv(experiment_filepath)

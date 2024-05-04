@@ -12,7 +12,7 @@ from model_training import train_linear_regression, train_decision_tree, train_x
 
 
 # Load and preprocess data
-control_data, experiment_data = load_data("control_data.csv", "experiment_data.csv")
+control_data, experiment_data = load_data("/Users/hydra/Desktop/Projects/AB_ML_test/data/control_data.csv", "/Users/hydra/Desktop/Projects/AB_ML_test/data/experiment_data.csv")
 data_total = preprocess_data(control_data, experiment_data)
 
 # Train models
